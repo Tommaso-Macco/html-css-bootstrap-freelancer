@@ -1,0 +1,45 @@
+[class*="col-"] {
+    min-height: 50px;
+    border: 1px solid #fff;
+    background-color: blue;
+}
+
+
+/* HEADER */
+header {
+    height: 100px;
+    background-color: rgb(19, 17, 17);
+}
+
+.margin-header {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.flex-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.col-lg-6 {
+    background-color: red;
+    height: 100px;
+}
+#test {
+    text-align: right;
+}
+
+/* JUMBOTRON */
+
+
+
+
+/* MAIN */
+/* SECTION1 */
+
+/* DEBUG */
+.red {
+    background-color: red;
+}
