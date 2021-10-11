@@ -5,41 +5,58 @@
 }
 
 
-/* HEADER */
-header {
-    height: 100px;
-    background-color: rgb(19, 17, 17);
+/* header */
+.header {
+    height: 50px;
 }
 
-.margin-header {
-    width: 75%;
-    margin: 0 auto;
-}
-
-.flex-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-}
-
-.col-lg-6 {
+.dx-header {
     background-color: red;
-    height: 100px;
 }
-#test {
-    text-align: right;
+
+.sx-header {
+    background-color: purple;
 }
 
 /* JUMBOTRON */
-
-
-
+.jumbotron {
+    height: 500px;
+}
 
 /* MAIN */
-/* SECTION1 */
 
-/* DEBUG */
-.red {
+/* SECTION 1 */
+.container-section-1 {
+    width: 60%;
+    margin: 0 auto;
+    /* DEBUG */
+    height: 600px;
+}
+
+.box-image {
+    height: 150px;
+    border-radius: 15px;
+    background-color: khaki;
+}
+
+/* SECTION 2  */
+
+#section2 {
+    background-color: grey;
+}
+.container-section-2 {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.section2-content {
+    height: 100px;
+}
+
+.sx-section2 {
     background-color: red;
+}
+
+.dx-section2 {
+    background-color: purple;
 }
